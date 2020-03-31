@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/im1"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food" />
+
+            <TextView
+                android:id="@+id/tv01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/im1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="monospace"
+                android:text="Taste Of Street"
+                android:textSize="34dp" />
+
+            <ImageView
+                android:id="@+id/im02"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/tv01"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/loc" />
+
+            <TextView
+                android:id="@+id/tv04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv01"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/im02"
+                android:fontFamily="sans-serif-thin"
+                android:text="Shop No 19, Near Kisan Stamb, Bus Stand, Multai"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/im03"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/im02"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/tv05"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/tv04"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/im03"
+                android:fontFamily="sans-serif-thin"
+                android:text="07127-2XXX12"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/im04"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/im03"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/clock" />
+
+            <TextView
+                android:id="@+id/tv06"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/tv05"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/im03"
+                android:text="5 PM - 8PM"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-thin"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_below="@id/tv06"
+                android:text="@string/des"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-thin"
+                android:layout_marginBottom="40dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

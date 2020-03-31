@@ -1,0 +1,2 @@
+rootProject.name='Street_Food_Stall'
+include ':app'
