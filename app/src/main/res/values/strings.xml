@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Street_Food_Stall</string>
     <string name="des">Street food is ready-to-eat food or drink sold by a hawker, or vendor, in a street or other public place, such as at a market or fair. It is often sold from a portable food booth, food cart, or food truck and meant for immediate consumption.</string>
+    <string name="Heading">Taste Of Street</string>
+    <string name="Add">Shop No 19, Near Kisan Stamb, Bus Stand, Multai</string>
+    <string name="phno">07147 22XXXX4</string>
+    <string name="email">strtfood@explmail.com</string>
+    <string name="website">www.street-food-local.com</string>
+    <string name="time">5 PM - 8PM</string>
+    <string name="cdesm">IMG for business representation </string>
+    <string name="cdesl">PNG img for location representation </string>
+    <string name="cdesc">PNG img for contact details </string>
+    <string name="cdest">PNG img  for shop opening - closing time</string>
 </resources>

@@ -16,6 +16,7 @@
 
             <ImageView
                 android:id="@+id/im1"
+                android:contentDescription="@string/cdesm"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:layout_alignParentTop="true"
@@ -31,13 +32,14 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:fontFamily="monospace"
-                android:text="Taste Of Street"
+                android:text="@string/Heading"
                 android:textSize="34sp"
                 android:textColor="@color/black"
                 />
 
             <ImageView
                 android:id="@+id/im02"
+                android:contentDescription="@string/cdesl"
                 android:layout_width="50dp"
                 android:layout_height="45dp"
                 android:layout_below="@id/tv01"
@@ -55,7 +57,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_toRightOf="@id/im02"
                 android:fontFamily="sans-serif-thin"
-                android:text="Shop No 19, Near Kisan Stamb, Bus Stand, Multai"
+                android:text="@string/Add"
                 android:textSize="20sp"
                 android:textColor="@color/black"
                 />
@@ -63,6 +65,7 @@
 
             <ImageView
                 android:id="@+id/im03"
+                android:contentDescription="@string/cdesc"
                 android:layout_width="50dp"
                 android:layout_height="45dp"
                 android:layout_below="@id/im02"
@@ -85,7 +88,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07147-22XXXX4"
+                    android:text="@string/phno"
                     android:fontFamily="sans-serif-thin"
                     android:textSize="20sp"
                     android:textColor="@color/black"
@@ -96,7 +99,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:fontFamily="sans-serif-thin"
-                    android:text="strtfood@explmail.com"
+                    android:text="@string/email"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -105,13 +108,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:fontFamily="sans-serif-thin"
-                    android:text="www.street-food-local.com"
+                    android:text="@string/website"
                     android:textSize="20sp"
                     android:textColor="@color/black"
                     />
             </LinearLayout>
 
             <ImageView
+                android:contentDescription="@string/cdest"
                 android:id="@+id/im04"
                 android:layout_width="50dp"
                 android:layout_height="45dp"
@@ -130,7 +134,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_toRightOf="@id/im03"
                 android:fontFamily="sans-serif-thin"
-                android:text="5 PM - 8PM"
+                android:text="@string/time"
                 android:textSize="20sp"
                 android:textColor="@color/black"
                 />
