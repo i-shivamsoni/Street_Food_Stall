@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,7 +32,9 @@
                 android:layout_marginRight="16dp"
                 android:fontFamily="monospace"
                 android:text="Taste Of Street"
-                android:textSize="34dp" />
+                android:textSize="34sp"
+                android:textColor="@color/black"
+                />
 
             <ImageView
                 android:id="@+id/im02"
@@ -54,7 +56,9 @@
                 android:layout_toRightOf="@id/im02"
                 android:fontFamily="sans-serif-thin"
                 android:text="Shop No 19, Near Kisan Stamb, Bus Stand, Multai"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
 
 
             <ImageView
@@ -76,6 +80,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
                 android:layout_toRightOf="@id/im03"
+
             >
                 <TextView
                     android:layout_width="wrap_content"
@@ -83,6 +88,7 @@
                     android:text="07147-22XXXX4"
                     android:fontFamily="sans-serif-thin"
                     android:textSize="20sp"
+                    android:textColor="@color/black"
                     />
 
                 <TextView
@@ -91,6 +97,7 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="sans-serif-thin"
                     android:text="strtfood@explmail.com"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <TextView
@@ -99,7 +106,9 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="sans-serif-thin"
                     android:text="www.street-food-local.com"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    />
             </LinearLayout>
 
             <ImageView
@@ -122,7 +131,9 @@
                 android:layout_toRightOf="@id/im03"
                 android:fontFamily="sans-serif-thin"
                 android:text="5 PM - 8PM"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -133,6 +144,7 @@
                 android:textSize="20sp"
                 android:fontFamily="sans-serif-thin"
                 android:layout_marginBottom="40dp"
+                android:textColor="@color/black"
                 />
         </RelativeLayout>
     </ScrollView>
