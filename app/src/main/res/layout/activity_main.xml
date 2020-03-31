@@ -56,27 +56,51 @@
                 android:text="Shop No 19, Near Kisan Stamb, Bus Stand, Multai"
                 android:textSize="20sp" />
 
+
             <ImageView
                 android:id="@+id/im03"
                 android:layout_width="50dp"
                 android:layout_height="45dp"
                 android:layout_below="@id/im02"
                 android:layout_marginLeft="16dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/phone" />
+                android:layout_marginTop="55dp"
+                android:src="@drawable/contact" />
 
-            <TextView
+            <LinearLayout
+                android:orientation="vertical"
                 android:id="@+id/tv05"
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/tv04"
                 android:layout_marginLeft="36dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
                 android:layout_toRightOf="@id/im03"
-                android:fontFamily="sans-serif-thin"
-                android:text="07127-2XXX12"
-                android:textSize="20sp" />
+            >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="07147-22XXXX4"
+                    android:fontFamily="sans-serif-thin"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="strtfood@explmail.com"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="www.street-food-local.com"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
             <ImageView
                 android:id="@+id/im04"
@@ -84,7 +108,7 @@
                 android:layout_height="45dp"
                 android:layout_below="@id/im03"
                 android:layout_marginLeft="16dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:src="@drawable/clock" />
 
             <TextView
@@ -96,10 +120,9 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
                 android:layout_toRightOf="@id/im03"
-                android:text="5 PM - 8PM"
-                android:textSize="20sp"
                 android:fontFamily="sans-serif-thin"
-                />
+                android:text="5 PM - 8PM"
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
